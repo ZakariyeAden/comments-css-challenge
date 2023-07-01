@@ -25,17 +25,21 @@ body{
   background-color: hsl(228, 33%, 97%);
   font-family: 'Rubik', sans-serif;
 }
+
+/* ***************** */
+/* Reuseable         */
+/* ***************** */
 .container{
   margin: 5rem 0 0 0;
   padding: 0 22rem;
 }
 .card{
-  padding: 1.3rem 1.5rem;
+  padding: 1.3rem 1.5rem 0.5rem;
   border-radius: 0.5rem;
   background-color: hsl(0, 0%, 100%);
 
   display: grid;
-  grid-template-columns: 1fr 11fr;
+  grid-template-columns: 0.3fr 3fr;
 }
 .img-profile{
   width: 30px;
@@ -71,15 +75,15 @@ body{
 }
 
 .column{
-  padding: 1rem 0rem;
-  margin: 0 2rem 2rem 0;
+  padding: 1rem 0.5rem;
+  margin: 0 1.5rem 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap:1rem;
 
-  background-color: hsl(223, 19%, 93%);
+  background-color: hsl(228, 33%, 97%);
   border-radius: 0.5rem;
 }
 .plus-icon{
@@ -87,4 +91,11 @@ body{
 }
 .minus-icon{
   width: 10px;
+}
+
+/* ***************** */
+/* Helpers         */
+/* ***************** */
+.comment-2{
+  margin-top: 1rem;
 }
