@@ -69,6 +69,14 @@ body{
    margin: 0 0 0 20rem;
    color: hsl(238, 40%, 52%);
 }
+.reply:hover, 
+.reply:active,
+.comment-reply:hover,
+.comment-reply:active,
+.comment-reply-:hover,
+.comment-reply-:active{
+  color: hsl(239, 57%, 85%);
+}
 .d-flex {
   display: flex;
   justify-content: start;
@@ -88,6 +96,13 @@ body{
 }
 .reply span{
   margin: 0 0.3rem;
+}
+
+.plus-icon:hover, 
+.plus-icon:active, 
+.minus-icon:hover, 
+.minus-icon:active{
+  background-color: hsl(238, 40%, 52%);
 }
 .column{
   padding: 1rem 0.5rem;
@@ -192,6 +207,9 @@ body{
   border: none;
   text-transform: uppercase;
   font-weight: 500;
+}
+.submit-btn:hover,.submit-btn:active {
+ background-color:  hsl(239, 57%, 85%);
 }
 /* ***************** */
 /* Helpers         */
